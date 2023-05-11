@@ -22,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
         btnfragment1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadfragment(new PertamaFragment();
+                loadfragment(new PertamaFragment());
             }
         });
 
         btnfragment2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadfragment(new KeduaFragment();
+                loadfragment(new KeduaFragment());
             }
         });
 
